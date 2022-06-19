@@ -1,3 +1,5 @@
+package leetCode.EasyLevel;
+
 import leetCode.EasyLevel.Task217DuplicatedNumbers;
 import org.junit.jupiter.api.Test;
 

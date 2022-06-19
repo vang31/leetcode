@@ -1,3 +1,5 @@
+package leetCode.EasyLevel;
+
 import leetCode.EasyLevel.Task1TwoSum;
 import org.junit.jupiter.api.Test;
 
@@ -18,6 +20,20 @@ public class TestTwoSum {
     @Test
     public void getTwoNumbersInArraysWhichSumIsTargetNumber() {
         int[] nums = task1TwoSum.twoSum(nums2, 9);
+        int[] indexesOfNumWhichSumIsTarget = new int[]{0,1};
+        assertArrayEquals(indexesOfNumWhichSumIsTarget, nums);
+    }
+
+    @Test
+    public void getEmptyArraysFromGivenArraysByMap() {
+        int[] nums = task1TwoSum.twoSumUsingMap(nums1, 9);
+        int[] emptyArrays = new int[]{};
+        assertArrayEquals(emptyArrays, nums);
+    }
+
+    @Test
+    public void getTwoNumbersInArraysWhichSumIsTargetNumberByMap() {
+        int[] nums = task1TwoSum.twoSumUsingMap(nums2, 9);
         int[] indexesOfNumWhichSumIsTarget = new int[]{0,1};
         assertArrayEquals(indexesOfNumWhichSumIsTarget, nums);
     }
