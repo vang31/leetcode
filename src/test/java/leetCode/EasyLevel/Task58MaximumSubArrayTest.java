@@ -25,4 +25,19 @@ class Task58MaximumSubArrayTest {
     void getMaxSubArray1() {
         assertEquals(1, msa.getMaxSubArray(nums3));
     }
+
+    @Test
+    void getMaxNumOfSubArray6() {
+        assertEquals(6, msa.getMaxNumOfSubArray(nums1));
+    }
+
+    @Test
+    void getMaxNumOfSubArray23() {
+        assertEquals(23, msa.getMaxNumOfSubArray(nums2));
+    }
+
+    @Test
+    void getMaxNumOfSubArray1() {
+        assertEquals(1, msa.getMaxNumOfSubArray(nums3));
+    }
 }
