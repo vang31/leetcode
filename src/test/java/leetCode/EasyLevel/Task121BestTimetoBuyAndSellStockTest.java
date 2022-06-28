@@ -11,12 +11,12 @@ class Task121BestTimetoBuyAndSellStockTest {
     private final int[] prices2 = new int[]{7,6,4,3,1};
 
     @Test
-    void getProfitWithOutMathFunction() {
+    void getProfitWithMathFunction() {
         assertEquals(5, sellStock.getProfitWithMathFunction(prices1));
     }
 
     @Test
-    void getProfitWithMathFunction() {
+    void getProfitWithOutMathFunction() {
         assertEquals(5, sellStock.getProfitWithOutMathFunction(prices1));
     }
 
