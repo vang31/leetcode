@@ -39,7 +39,6 @@ public class Task121BestTimetoBuyAndSellStock {
             }
         }
 
-
         return sell;
     }
 
