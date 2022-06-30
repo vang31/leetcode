@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Task58MaximumSubArrayTest {
+class Task53MaximumSubArrayTest {
 
-    private final Task58MaximumSubArray msa = new Task58MaximumSubArray();
+    private final Task53MaximumSubArray msa = new Task53MaximumSubArray();
     private final int[] nums1 = new int[]{-2,1,-3,4,-1,2,1,-5,4};
     private final int[] nums2 = new int[]{5,4,-1,7,8};
     private final int[] nums3 = new int[]{1};

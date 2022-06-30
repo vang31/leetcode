@@ -29,7 +29,7 @@ package leetCode.EasyLevel;
  * */
 
 // O(n) time | O(1) space
-public class Task58MaximumSubArray {
+public class Task53MaximumSubArray {
 
     public int getMaxSubArray(int[] nums) {
         int currentSum = nums[0];
